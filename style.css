@@ -56,7 +56,13 @@ h2 {
   font-size: 32px;
   font-weight: normal;
   font-family: "Gamja Flower", "cursive", serif;
-
+}
+h3 {
+  color: var(--on-background-alt);
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Gamja Flower", "cursive", serif;
+  margin: 20px;
 }
 
 /* Navigation */
@@ -182,7 +188,8 @@ button:hover:not(.outline) {
 
 p {
   margin: 0;
-  line-height: 40px;
+  line-height: px;
+  font-size: 12px;
 }
 
 /* Contact Section */
