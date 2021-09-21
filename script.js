@@ -17,7 +17,7 @@ const textBox = document.querySelectorAll(".text-box")
 function toggleDarkLightMode(mode) {
     nav.style.backgroundColor = mode === "dark" ? `rgb(0 0 0 / 50%)` : `rgb(255 255 255 / 50%)`;
     textBox.forEach(element => {
-        element.style.backgroundColor = mode === "dark" ? `rgba(216, 187, 255, 0.9)` : `rgb(0 0 0 / 50%)`;
+        element.style.backgroundColor = mode === "dark" ? `#B85C38` : `rgb(0 0 0 / 50%)`;
 
     });
     toggleIcon.children[0].textContent = mode === "dark"  ? 'Dark Mode' : 'Light Mode';
